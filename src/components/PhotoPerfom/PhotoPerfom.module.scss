@@ -1,0 +1,55 @@
+.perfom{
+    margin-top: 24px;
+    padding-bottom: 160px;
+
+    &__wrapper{
+        flex-direction: column;
+
+        &_title{
+            text-transform: uppercase;
+            margin: 0px;
+            padding-top: 24px;
+            font-weight: 200;
+            font-size: 146px;
+            line-height: 120px;
+            color: #FFE4A2;
+        }
+
+        &_descr{
+            font-weight: 200;
+            font-size: 37px;
+            line-height: 68px;
+            letter-spacing: 0.025em;
+            text-transform: uppercase;
+            color: #FFE4A2;
+            margin-top: 24px;
+        }
+
+        &_devider{
+            position: relative;
+        }
+
+        &_devider::after{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background-color: #FFE4A2;
+            bottom: 0px;
+        }
+
+        &_photo1{
+            margin-top: 24px;
+        }
+
+        &_photo2{
+            width: calc(50% - 8px);
+        }
+
+        &_margin{
+            flex-direction: row;
+            margin-top: 20px;
+            justify-content: space-between;
+        }
+    }
+}

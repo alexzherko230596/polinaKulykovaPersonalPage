@@ -1,0 +1,12 @@
+.home{
+    flex-direction: column;
+    &__noteBg{
+        position: absolute;
+        width: 300px;
+        height: 994px;
+    }
+
+    &_hide{
+        display: none;
+    }
+}

@@ -1,0 +1,149 @@
+.header{
+    margin-top: 48px;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 2;
+
+    &__menu{
+        flex-direction: row;
+        z-index: 2;
+
+        &__ul{
+            flex-direction: row;
+            display: flex;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+
+            &_item{
+                text-transform: uppercase;
+                margin: 0px 24px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                cursor: pointer;
+                transition: .5s all;
+                color: #fff;
+                position: relative;
+
+                &_active{
+                    color: #FFE4A2; 
+                    cursor: default;
+                }
+
+                &_active::after{
+                    content: '';
+                    width: 100%;
+                    height: 1px;
+                    background-color: #FFE4A2;
+                    position: absolute;
+                    bottom: -8px;
+                    left: 0px;
+                }
+            }
+
+            &_item:first-child{
+                margin-left: 0px;
+            }
+
+            &_item:hover{
+                color: #FFE4A2;
+            }
+
+            &_item:hover::after{
+                content: '';
+                width: 100%;
+                height: 1px;
+                background-color: #FFE4A2;
+                position: absolute;
+                bottom: -8px;
+                left: 0px;
+            }
+
+            &__photo{
+                margin-left: 24px;
+                position: relative;
+
+                &__modal{
+                    width: 140px;
+                    background-color: #474644;
+                    position: absolute;
+                    bottom: -70px;
+                    left: -67%;
+                    cursor: pointer;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 5px;
+
+                    &__photoes{
+                        height: 32px;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        border-radius: 5px;
+
+                        &_title{
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 12px;
+                            color: #FFFFFF;
+                        }
+
+                        &_active{
+                            background-color: #960040;
+                        }
+                    }
+
+                    &__photoes:hover{
+                        background-color: #960040;
+                    }
+
+                    &__perfomance{
+                        height: 32px;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        border-radius: 5px;
+
+                        &_title{
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 12px;
+                            color: #FFFFFF;
+                        }
+
+                        &_active{
+                            background-color: #960040;
+                        }
+                    }
+                    &__perfomance:hover{
+                        background-color: #960040;
+                    }
+
+                    &_hide{
+                        display: none;
+                    }
+                }
+            }
+
+        }
+    }
+
+    &__language{
+
+        &_item{
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            padding: 0px;
+        }
+
+        &_devider{
+            width: 2px;
+            height: 100%;
+            background-color: #fff;
+            margin: 0px 6px;
+        }
+    }
+}
