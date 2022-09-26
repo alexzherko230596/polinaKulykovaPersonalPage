@@ -1,14 +1,16 @@
 import React from "react";
 import classes from './Video.module.scss'
+import { useTranslation } from "react-i18next";
 
 export const Video = () => {
+    const {t} = useTranslation()
     return(
         <div className={classes.video}>
             <div className="g-container">
                 <div className={classes.video__wrapper}> 
-                    <h2 className={classes.video__wrapper_title}> video</h2>
+                    <h2 className={classes.video__wrapper_title}>{t('video.title')}</h2>
                     <div className={classes.video__wrapper_devider}>
-                        <p className={classes.video__wrapper_descr}>H. Sutermeister „ Die schwarze Spinne“ Arie Christine</p>
+                        <p className={classes.video__wrapper_descr}>{t('video.descr')}</p>
                     </div>
                     <div className={classes.video__wrapper_one}>
                         <iframe 

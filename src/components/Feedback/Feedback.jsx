@@ -3,8 +3,11 @@ import classes from './Feedback.module.scss'
 import facebook from '../../img/facebook.svg'
 import instagram from '../../img/instagram.svg'
 import emailjs, { sendForm } from 'emailjs-com';
+import { useTranslation } from "react-i18next";
 
 export const Feedback = () => {
+
+    const {t} = useTranslation()
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -48,7 +51,7 @@ export const Feedback = () => {
         <div className={classes.feedback}>
             <div className="g-container">
                 <div className={classes.feedback__wrapper}>
-                    <h2 className={classes.feedback__wrapper_title}>kontact</h2>
+                    <h2 className={classes.feedback__wrapper_title}>{t('contact.title')}</h2>
                     <div className={classes.feedback__wrapper_devider}/>
                     <div className={classes.feedback__wrapper__form}>
                         <div className={classes.feedback__wrapper__form__social}>
@@ -95,13 +98,13 @@ export const Feedback = () => {
                                     maxLength={200}
                                     name='comment'
                                     />
-                                <button type = 'submit' className={classes.feedback__wrapper__form__fillData_btn} disabled={disabled}>Senden</button>
+                                <button type = 'submit' className={classes.feedback__wrapper__form__fillData_btn} disabled={disabled}>{t('contact.btn')}</button>
                                 <p className={classes.feedback__wrapper__form__fillData_error}>{error}</p>
                             </form>
                         :
                             <div className={classes.feedback__wrapper__form__success}>
-                                <p className={classes.feedback__wrapper__form__success_title}>Thanks! Polina wll contact you shortly</p>
-                                <button className={classes.feedback__wrapper__form__success_btn} onClick={handleShown}>Send another form</button>
+                                <p className={classes.feedback__wrapper__form__success_title}>{t('contact.btn_text')}</p>
+                                <button className={classes.feedback__wrapper__form__success_btn} onClick={handleShown}>{t('contact.btn_btn')}</button>
                             </div>
                         }
                     </div>

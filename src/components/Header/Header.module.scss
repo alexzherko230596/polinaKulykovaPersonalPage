@@ -137,6 +137,12 @@
             color: #fff;
             cursor: pointer;
             padding: 0px;
+            transition: .5s all;
+
+            &_active{
+                color: #5E5E5E;
+                cursor: default;
+            }
         }
 
         &_devider{

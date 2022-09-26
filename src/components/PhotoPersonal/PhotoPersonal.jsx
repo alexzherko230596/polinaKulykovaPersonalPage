@@ -1,14 +1,16 @@
 import React from "react";
 import classes from './PhotoPersonal.module.scss'
+import { useTranslation } from "react-i18next";
 
 export const PhotoPersonal = () => {
+    const {t} = useTranslation()
     return(
         <div className={classes.photo}>
             <div className="g-container">
                 <div className={classes.photo__wrapper}>
-                    <h2 className={classes.photo__wrapper_title}>fotos</h2>
+                    <h2 className={classes.photo__wrapper_title}>{t('photo.title1')}</h2>
                     <div className={classes.photo__wrapper_devider}>
-                        <p className={classes.photo__wrapper_descr}>POrtret  |  fotograf:  </p>
+                        <p className={classes.photo__wrapper_descr}>{t('photo.descr1')}</p>
                     </div>
                     <img src={require('../../img/photo1.jpg')} className={classes.photo__wrapper_photo1}/>
                     <div className={classes.photo__wrapper_margin}>

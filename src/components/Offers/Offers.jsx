@@ -1,38 +1,40 @@
 import React from "react";
 import classes from './Offers.module.scss'
+import { useTranslation } from "react-i18next";
 
 export const Offers = () => {
+    const {t} = useTranslation()
     return(
         <section className={classes.offer}>
             <div className="g-container">
                 <div className={classes.offer__wrapper}>
-                    <h2 className={classes.offer__wrapper_title}>Offerte</h2>
-                    <p className={classes.offer__wrapper_descr}>Wenn Sie der Meinung sind, dass Musik die einzige internationale und einzigartige Sprache ist, die von jedem verstanden werden kann, vom Kleinkind bis zum Erwachsenen, dann ist es mir eine große Freude, Ihnen die Magie der Klänge vorzustellen und Sie in eine Welt der Harmonie und des Staunens zu entführen, wenn auch nur für eine kurze Zeit.</p>
+                    <h2 className={classes.offer__wrapper_title}>{t('offer.title')}</h2>
+                    <p className={classes.offer__wrapper_descr}>{t('offer.descr')}</p>
                     <div className={classes.offer__wrapper__text}>
-                        <p className={classes.offer__wrapper__text_title}>Ich kann Vorführen:</p>
-                        <p className={classes.offer__wrapper__text_descr}>• Ein klassisches Musikkonzert mit Werken der zeitgenössischen Klassik und Schlagern</p>
+                        <p className={classes.offer__wrapper__text_title}>{t('offer.title_title')}</p>
+                        <p className={classes.offer__wrapper__text_descr}>{t('offer.descr_descr')}</p>
                         <div className={classes.offer__wrapper__text__auth}>
-                            <p className={classes.offer__wrapper__text__auth_item}>• Solist im Chor</p>
-                            <p className={classes.offer__wrapper__text__auth_item}>• Heimkonzerte </p>
-                            <p className={classes.offer__wrapper__text__auth_item}>• Gottesdienste</p>
+                            <p className={classes.offer__wrapper__text__auth_item}>{t('offer.point1')}</p>
+                            <p className={classes.offer__wrapper__text__auth_item}>{t('offer.point2')}</p>
+                            <p className={classes.offer__wrapper__text__auth_item}>{t('offer.point3')}</p>
                         </div>
-                        <p className={classes.offer__wrapper__text_bottom}>Mit großer Liebe und Freude im Herzen werde ich gerne für Sie singen. </p>
+                        <p className={classes.offer__wrapper__text_bottom}>{t('offer.underline_text')}</p>
                         <div className={classes.offer__wrapper__text__block1}>
-                            <p className={classes.offer__wrapper__text__block1_text}>„Stimmgewaltig und virtuos, die Mitglieder der Spirito Corda 
-                                Danke, dass sie uns diesen wunderbaren Opernabend nach Brienz gebracht hast.“
+                            <p className={classes.offer__wrapper__text__block1_text}>
+                                {t('offer.message1_text')}
                             </p>
                             <div className={classes.offer__wrapper__text__block1__wrapper}>
-                                <p  className={classes.offer__wrapper__text__block1__wrapper_date}>2.6.2022</p>
-                                <p  className={classes.offer__wrapper__text__block1__wrapper_auth}>Therese Wirz</p>
+                                <p  className={classes.offer__wrapper__text__block1__wrapper_date}>{t('offer.message1_date')}</p>
+                                <p  className={classes.offer__wrapper__text__block1__wrapper_auth}>{t('offer.message1_auth')}</p>
                             </div>
                         </div>
                         <div className={classes.offer__wrapper__text__block2}>
                             <p className={classes.offer__wrapper__text__block2_text}>
-                                „Qualitativ hochstehendes Opern-Programm. Professionelle Artisten mit hervorragenden Stimmen. Kenner*innen werden überrascht und Neueinsteiger*innen werden erfolgreich in die Opernwelt eingeführt. Mit meiner besten Empfehlung!“
+                                {t('offer.message2_text')}
                             </p>
                             <div className={classes.offer__wrapper__text__block2__wrapper}>
-                                <p className={classes.offer__wrapper__text__block2__wrapper_date}>21.2.2022 </p>
-                                <p className={classes.offer__wrapper__text__block2__wrapper_auth}>Andreas Riedwyl</p>
+                                <p className={classes.offer__wrapper__text__block2__wrapper_date}>{t('offer.message2_date')}</p>
+                                <p className={classes.offer__wrapper__text__block2__wrapper_auth}>{t('offer.message2_auth')}</p>
                             </div>
                         </div>
                     </div>

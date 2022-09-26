@@ -1,14 +1,16 @@
 import React from "react";
 import classes from './PhotoPerfom.module.scss'
+import { useTranslation } from "react-i18next";
 
 export const PhotoPerfom = () => {
+    const {t} = useTranslation()
     return(
         <div className={classes.perfom}>
             <div className="g-container">
                 <div className={classes.perfom__wrapper}>
-                    <h2 className={classes.perfom__wrapper_title}>fotos</h2>
+                    <h2 className={classes.perfom__wrapper_title}>{t('photo.title1')}</h2>
                     <div className={classes.perfom__wrapper_devider}>
-                        <p className={classes.perfom__wrapper_descr}>Performances</p>
+                        <p className={classes.perfom__wrapper_descr}>{t('photo.descr2')}</p>
                     </div>
                     <img src={require('../../img/perfom1.jpg')} className={classes.perfom__wrapper_photo1} alt=''/>
                     <div className={classes.perfom__wrapper_margin}>
