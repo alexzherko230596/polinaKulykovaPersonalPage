@@ -10,6 +10,7 @@ i18n
 
 .init({
     fallbackLng: 'de',
+    lng: 'de',
     debug: true,
     detection: {
       order: ['localStorage', 'cookie', 'htmlTag', 'path', 'subdomain'],
