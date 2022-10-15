@@ -1,12 +1,36 @@
 .home{
+
     flex-direction: column;
+    width: 100%;
+
     &__noteBg{
         position: absolute;
         width: 300px;
         height: 994px;
+        opacity: 1;
     }
 
     &_hide{
         display: none;
+    }
+
+    &_mobileHeader{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .home{
+        &_mobileHeader{
+            display: flex;
+            height: 58px;
+            position: relative;
+            z-index: 5;
+        }
+
+        &__noteBg{
+            opacity: .6;
+        }
+    
     }
 }

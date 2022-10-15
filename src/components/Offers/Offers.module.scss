@@ -111,3 +111,94 @@
         }
     }
 }
+
+@media only screen and (max-width: 1000px) {
+    .offer{
+        margin-top: 0px;
+        padding-top: 24px;
+
+        &__wrapper{
+
+            &_title{
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 36px;
+                letter-spacing: 0.085em;
+            }
+    
+            &_descr{
+                margin-top: 24px;
+            }
+
+            &__text{
+    
+                &_title{
+                    margin-left: 0px;
+                    font-size: 28px;
+                    line-height: 28px;
+                }
+    
+                &_descr{
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 25px;
+                    margin-left: 0px;
+                }
+
+                &__auth{
+                    flex-direction: column;
+                    margin-left: 0px;
+                    margin-top: 0px;
+                    position: relative;
+
+                    &_item{
+                        margin-top: 24px;
+                    }
+                }
+
+                &__auth::after{
+                    height: 0px;
+                }
+
+                &_bottom{
+                    margin-top: 40px;
+                    margin-left: 0px;
+                }
+    
+                &__block1, &__block2{
+                    width: 85%;
+                    padding: 24px 16px;
+                    border-radius: 32px;
+                    z-index: 2;
+    
+                    &_text{
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+    
+                    &__wrapper{
+                        margin-top: 8px;
+                        justify-content: flex-end;
+    
+                        &_date, &_auth{
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 30px;
+                        }
+    
+                        &_auth{
+                            margin-left: 12px;
+                        }
+                    }
+                }   
+    
+                &__block2{
+                    margin-top: 36px;
+                    background: #60052B;
+                    margin-left: 15%;
+                }
+            }
+        }
+    }
+}

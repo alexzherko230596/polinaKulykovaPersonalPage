@@ -9,6 +9,7 @@ const MainPage = () => {
             <img src={require('../../img/noteWholePage.jpg')} alt='note' className={classes.main_note}/>
             <img src={require('../../img/polinaFullHeight.png')} alt='Polina' className={classes.main_polina}/>
             <img src={require('../../img/noteUpsideDown.jpg')} alt='note' className={classes.main_noteUpsediDown}/>
+            <img src={require('../../img/mobileNote.jpg')} alt='note' className={classes.main_noteMobile}/>
             <div className="g-container">
                 <div className={classes.main__wrapper}>
                     <p className={classes.main__wrapper_hide}>1</p>

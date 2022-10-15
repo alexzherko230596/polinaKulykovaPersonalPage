@@ -17,9 +17,11 @@ export const Feedback = () => {
     const [disabled, isDisabled] = useState(true)
     const [error, setError] = useState('')
     const [isSend, setSend] = useState(true)
+    const [isLoading, setLoading] = useState(false)
 
     const handleButton = (e) => {
         e.preventDefault();
+        setLoading(true)
         emailjs.sendForm(process.env.REACT_APP_USER_TEMPLATE, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_EMAILJS_PERSON)
         .then((result) => {
             setName('')
@@ -28,6 +30,7 @@ export const Feedback = () => {
             setPhone('')
             setComment('')
             setSend(false)
+            setLoading(false)
         }, (error) => {
             setError('Something went wrong. Try again')
         });
@@ -64,6 +67,11 @@ export const Feedback = () => {
                             </a>
                         </div>
                         {isSend ? 
+                            isLoading ? 
+                            <div className={classes.feedback__wrapper__form__sendForm}>
+                                <div className={classes.feedback__wrapper__form__sendForm_loading}/>
+                            </div>
+                            :
                             <form className={classes.feedback__wrapper__form__fillData} onSubmit={handleButton}>
                                 <div className={classes.feedback__wrapper__form__fillData__personal}>
                                     <input 

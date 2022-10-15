@@ -1,0 +1,110 @@
+.date{
+    flex-direction: row;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 8px;
+    flex-direction: column;
+    word-wrap: break-word;
+
+   &__wrapper{
+
+    justify-content: space-between;
+    width: 350px;
+
+        &_day{
+            width: 22%;
+        }
+
+        &_time{
+            // margin: 0px 20px;
+            width: 30%;
+            text-align: center;
+        }
+
+        &_program{
+            width: 35%;
+        }
+   }
+
+    &__secondBlock{
+        justify-content: space-between;
+        width: 350px;
+        margin-top: 4px;
+
+        &_day{
+            width: 22%;
+            opacity: 0;
+        }
+
+        &_time{
+            // margin: 0px 20px;
+            width: 30%;
+            text-align: center;
+        }
+
+        &_program{
+            width: 35%;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .date{
+        flex-direction: row;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 8px;
+        flex-direction: column;
+        word-wrap: break-word;
+        padding-left: 16px;
+    
+       &__wrapper{
+    
+        justify-content: space-between;
+        width: 350px;
+    
+            &_day{
+                width: 22%;
+                font-size: 15px;
+            }
+    
+            &_time{
+                // margin: 0px 20px;
+                width: 30%;
+                text-align: center;
+                font-size: 15px;
+            }
+    
+            &_program{
+                width: 35%;
+                font-size: 13px;
+            }
+       }
+    
+        &__secondBlock{
+            justify-content: space-between;
+            width: 350px;
+            margin-top: 4px;
+    
+            &_day{
+                width: 22%;
+                opacity: 0;
+            }
+    
+            &_time{
+                // margin: 0px 20px;
+                width: 30%;
+                text-align: center;
+                font-size: 15px;
+            }
+    
+            &_program{
+                width: 35%;
+                font-size: 13px;
+            }
+        }
+    }
+}

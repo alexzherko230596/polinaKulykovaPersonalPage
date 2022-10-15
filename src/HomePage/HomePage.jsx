@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import { About } from "../components/About/About";
+import { Calendar } from "../components/Calendar/Calendar";
 import {Feedback} from "../components/Feedback/Feedback";
 import { Header } from "../components/Header/Header";
 import MainPage from "../components/MainPage/MainPage";
@@ -53,14 +54,16 @@ export const HomePage = () => {
                 return(
                     <Feedback />
                 )
+            case 9:
+                return(
+                    <Calendar />
+                )
         }
     }
     return(
         <div className={classes.home}>
             <img className={tabNUmber === 1 ? classes.home_hide : classes.home__noteBg} src={require('../img/noteHuge.png')}/>
-            <div className="g-container">
-                <Header onClick={handleHeader} setTabNumber = {setTabNumber} tabNUmber = {tabNUmber}/>
-            </div>
+            <Header onClick={handleHeader} setTabNumber = {setTabNumber} tabNUmber = {tabNUmber}/>
             <ShowComponent />
         </div>
     )

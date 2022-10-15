@@ -27,10 +27,10 @@ export const PhotoPersonal = () => {
                         <img src={require('../../img/photo8.jpg')} className={classes.photo__wrapper_photo2}/>
                     </div>
                     <div className={classes.photo__wrapper_margin}>
-                        <img src={require('../../img/photo8.jpg')} className={classes.photo__wrapper_photo2}/>
+                        <img src={require('../../img/photo9.jpg')} className={classes.photo__wrapper_photo2}/>
                         <img src={require('../../img/photo10.jpg')} className={classes.photo__wrapper_photo2}/>
                     </div>
-                    <img src={require('../../img/photo11.jpg')} className={classes.photo__wrapper_photo1}/>
+                    <img src={require('../../img/photo11.jpg')} className={`${classes.photo__wrapper_photo1} ${classes.photo__wrapper_photo1_mobile}`}/>
                 </div>
             </div>
         </div>

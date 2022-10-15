@@ -8,7 +8,8 @@
         "photo1" : "PORTRET FOTOS",
         "photo2" : "PERFOMANCES",
         "video" : "Videos",
-        "contact" : "Contacts"
+        "contact" : "Contacts",
+        "calendar" : "calendar"
     },
     "about" : {
         "about1_1" : "2002",
@@ -132,5 +133,8 @@
         "btn" : "Send",
         "btn_text" : "Thanks! Polina wll contact you shortly",
         "btn_btn" : "Send another form"
+    },
+    "calendar" : {
+        "title" : "calendar"
     }
 }
