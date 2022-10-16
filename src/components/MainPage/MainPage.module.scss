@@ -169,3 +169,18 @@
         }
     }
 }
+
+@media only screen and (max-width: 370px) {
+    .main{
+
+        &__wrapper{
+
+            &_h1{
+                font-size: 28px;
+                line-height: 32px;
+                margin-left: 0px;
+            }
+
+        }
+    }
+}

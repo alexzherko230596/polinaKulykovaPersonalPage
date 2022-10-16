@@ -34,6 +34,8 @@ export const About = () => {
                         <p className={classes.about__wrapper__second_item}><span>{t('about.about14_1')}</span>{t('about.about14_2')}<span>{t('about.about14_3')}</span>{t('about.about14_4')}</p>
                         <p className={classes.about__wrapper__second_item}><span>{t('about.about15_1')}</span>{t('about.about15_2')}<span>{t('about.about15_3')}</span>{t('about.about15_4')}<span>{t('about.about15_5')}</span></p>
                         <p className={classes.about__wrapper__second_item}>{t('about.about16_1')}<span>{t('about.about16_2')}</span>{t('about.about16_3')}<span>{t('about.about16_4')}</span>{t('about.about16_5')}</p>
+                        <p className={classes.about__wrapper__second_item}><span>{t('about.about17_1')}</span>{t('about.about17_2')}</p>
+                        <p className={classes.about__wrapper__second_item}><span>{t('about.about18_1')}</span>{t('about.about18_2')}</p>
                     </div>
                 </div>
            </div>
