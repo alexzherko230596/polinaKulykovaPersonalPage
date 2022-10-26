@@ -9,7 +9,7 @@
         "photo2" : "PERFOMANCES",
         "video" : "Videos",
         "contact" : "Contacts",
-        "calendar" : "calendar"
+        "calendar" : "EVENTS"
     },
     "about" : {
         "about1_1" : "2002",
@@ -34,7 +34,7 @@
         "about5_5" : "Specialized",
         "about5_6" : "Music Performance Opera of the Swiss Opera Studio,",
         "about5_7" : "Bern/Biel University of the Arts",
-        "about6_1" : "„Opernskizzen Mythen Töne“",
+        "about6_1" : "2019 „Opernskizzen Mythen Töne“",
         "about6_2" : "and opera workshop",
         "about6_3" : "„Natur und Oper“",
         "about6_4" : "Swiss Opera Studio, HKB.The role of Madre Maria and Choralto in ",
@@ -43,9 +43,11 @@
         "about7_1" : "At the same time she completed an internship in opera houses and took part in as a soloist",
         "about7_2" : "„Zäller Wiehnacht“",
         "about7_3" : "by Paul Burkhard in TOBS.",
+        "about7_4" : "2020",
         "about8_1" : "The",
         "about8_2" : "Role Orlofsky in „Fledermaus“",
         "about8_3" : "by Johann Strauss in the 'New Theater Dornach'.",
+        "about8_4" : "2021",
         "about9_1" : "2021 main role",
         "about9_2" : " in the final project ",
         "about9_3" : "„Das Unheimliche“",
@@ -139,6 +141,6 @@
         "btn_btn" : "Send another form"
     },
     "calendar" : {
-        "title" : "calendar"
+        "title" : "EVENTS"
     }
 }

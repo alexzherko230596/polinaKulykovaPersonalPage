@@ -18,6 +18,10 @@ export const Offers = () => {
                             <p className={classes.offer__wrapper__text__auth_item}>{t('offer.point2')}</p>
                             <p className={classes.offer__wrapper__text__auth_item}>{t('offer.point3')}</p>
                         </div>
+                        {/* <div>
+                            <p className={classes.offer__wrapper__text__auth_item}>{t('offer.point1')}</p>
+                            <p className={classes.offer__wrapper__text__auth_item}>{t('offer.point2')}</p>
+                        </div> */}
                         <p className={classes.offer__wrapper__text_bottom}>{t('offer.underline_text')}</p>
                         <div className={classes.offer__wrapper__text__block1}>
                             <p className={classes.offer__wrapper__text__block1_text}>

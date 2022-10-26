@@ -52,7 +52,7 @@ export const Calendar = () => {
                         </div>
 
                         <div className={classes.calendar__wrapper__month__element}>
-                            <p className={classes.calendar__wrapper__month__element_title}>YANVAR 2023</p>
+                            <p className={classes.calendar__wrapper__month__element_title}>Januar 2023</p>
                             <div className={classes.calendar__wrapper__month__element_devider}/>
                             <div className={classes.calendar__wrapper__month__element__content}>
                                 <ItemDateAction day = {'02.01.2023'} time = {'13:30-14:45'} program = {'Vorstellung'} isTwo={true} secondTime = {'17:00-18:15'}/>

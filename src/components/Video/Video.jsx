@@ -9,10 +9,10 @@ export const Video = () => {
             <div className="g-container">
                 <div className={classes.video__wrapper}> 
                     <h2 className={classes.video__wrapper_title}>{t('video.title')}</h2>
-                    <div className={classes.video__wrapper_devider}>
+                    {/* <div className={classes.video__wrapper_devider}>
                         <p className={classes.video__wrapper_descr}>{t('video.descr')}</p>
-                    </div>
-                    <div className={classes.video__wrapper_one}>
+                    </div> */}
+                    {/* <div className={classes.video__wrapper_one}>
                         <iframe 
                             width="100%" 
                             height="490" 
@@ -21,7 +21,7 @@ export const Video = () => {
                             frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             allowfullscreen></iframe>
-                    </div>
+                    </div> */}
                     <div className={classes.video__wrapper__two}>
                         <div className={classes.video__wrapper__two__first}>
                             <p className={classes.video__wrapper__two__first_header}>H. Sutermeister „ Die schwarze Spinne“ Arie Christine</p>
@@ -36,7 +36,7 @@ export const Video = () => {
                                 allowfullscreen></iframe>
                         </div>
                         <div className={classes.video__wrapper__two__first}>
-                            <p className={classes.video__wrapper__two__first_header}>H. Sutermeister „ Die schwarze Spinne“ Arie Christine</p>
+                            <p className={classes.video__wrapper__two__first_header}>Va! Laisse couler mes larmes - Charlotte Aria - Werther - Massenet</p>
                             <div className={classes.video__wrapper__two__first_devider}/>
                             <iframe 
                                 width="100%" 
@@ -65,7 +65,7 @@ export const Video = () => {
                             </iframe>
                         </div>
                         <div className={classes.video__wrapper__two__first}>
-                            <p className={classes.video__wrapper__two__first_header}>H. Sutermeister „ Die schwarze Spinne“ Arie Christine</p>
+                            <p className={classes.video__wrapper__two__first_header}>„ ich lade gern mir Gäste ein“- Die Fledermaus ( Prince Orlofsky).</p>
                             <div className={classes.video__wrapper__two__first_devider}/>
                             <iframe 
                                 width="100%" 

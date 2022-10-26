@@ -24,18 +24,18 @@ export const About = () => {
                     <div className={classes.about__wrapper__second}>
                         <p className={classes.about__wrapper__second_item}>{t('about.about5_1')} <span>{t('about.about5_2')}</span> {t('about.about5_3')} <span>{t('about.about5_4')}</span> {t('about.about5_5')} <span>{t('about.about5_6')}</span> {t('about.about5_7')}</p>
                         <p className={classes.about__wrapper__second_item}><span>{t('about.about6_1')}</span> {t('about.about6_2')} <span> {t('about.about6_3')}</span> {t('about.about6_4')}<span>{t('about.about6_5')} </span> {t('about.about6_6')}</p>
-                        <p className={classes.about__wrapper__second_item}>{t('about.about7_1')} <span>{t('about.about7_2')}</span> {t('about.about7_3')}</p>
-                        <p className={classes.about__wrapper__second_item}>{t('about.about8_1')} <span>{t('about.about8_2')}</span> {t('about.about8_3')}</p>
+                        <p className={classes.about__wrapper__second_item}><span>{t('about.about7_4')}</span> {t('about.about7_1')} <span>{t('about.about7_2')}</span> {t('about.about7_3')}</p>
+                        <p className={classes.about__wrapper__second_item}><span>{t('about.about8_4')}</span> {t('about.about8_1')} <span>{t('about.about8_2')}</span> {t('about.about8_3')}</p>
                         <p className={classes.about__wrapper__second_item}><span>{t('about.about9_1')}</span>{t('about.about9_2')}<span>{t('about.about9_3')}</span>{t('about.about9_4')}</p>
                         <p className={classes.about__wrapper__second_item}><span>{t('about.about10_1')}</span>{t('about.about10_2')}<span>{t('about.about10_3')}</span></p>
                         <p className={classes.about__wrapper__second_item}>{t('about.about11_1')}<span>{t('about.about11_2')}</span>{t('about.about11_3')}<span>{t('about.about11_4')}</span></p>
-                        <p className={classes.about__wrapper__second_item}>{t('about.about12_1')}<span>{t('about.about12_2')}</span> <a href="https://www.spiritocorda.ch/" target="_blank" rel="noreferrer"> Website</a></p>
+                        <p className={classes.about__wrapper__second_item}>{t('about.about12_1')}<span>{t('about.about12_2')}</span> <a href="https://www.spiritocorda.ch/" target="_blank" rel="noreferrer"> https://www.spiritocorda.ch</a></p>
                         <p className={classes.about__wrapper__second_item}><span>{t('about.about13_1')}</span>{t('about.about13_2')}<span>{t('about.about13_3')}</span>{t('about.about13_4')}<span>{t('about.about13_5')}</span>{t('about.about13_6')}</p>
                         <p className={classes.about__wrapper__second_item}><span>{t('about.about14_1')}</span>{t('about.about14_2')}<span>{t('about.about14_3')}</span>{t('about.about14_4')}</p>
                         <p className={classes.about__wrapper__second_item}><span>{t('about.about15_1')}</span>{t('about.about15_2')}<span>{t('about.about15_3')}</span>{t('about.about15_4')}<span>{t('about.about15_5')}</span></p>
-                        <p className={classes.about__wrapper__second_item}>{t('about.about16_1')}<span>{t('about.about16_2')}</span>{t('about.about16_3')}<span>{t('about.about16_4')}</span>{t('about.about16_5')}</p>
                         <p className={classes.about__wrapper__second_item}><span>{t('about.about17_1')}</span>{t('about.about17_2')}</p>
                         <p className={classes.about__wrapper__second_item}><span>{t('about.about18_1')}</span>{t('about.about18_2')}</p>
+                        <p className={classes.about__wrapper__second_item}>{t('about.about16_1')}<span>{t('about.about16_2')}</span>{t('about.about16_3')}<span>{t('about.about16_4')}</span>{t('about.about16_5')}</p>
                     </div>
                 </div>
            </div>

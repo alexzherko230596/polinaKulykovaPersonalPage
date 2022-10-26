@@ -4,12 +4,12 @@
         "continue" : "LEBENSLAUF",
         "offers" : "OFFERTE",
         "press" : "PRESSE",
-        "photo" : "POTOS",
-        "photo1" : "PORTRET FOTOS",
+        "photo" : "FOTOS",
+        "photo1" : "Porträts",
         "photo2" : "PERFOMANCES",
         "video" : "Videos",
         "contact" : "KONTAKT",
-        "calendar" : "KALENDER"
+        "calendar" : "EVENTS"
     },
     "about" : {
         "about1_1" : "2002",
@@ -34,7 +34,7 @@
         "about5_5" : "Specialized",
         "about5_6" : "Music Performance Opera der Schweizer Opernstudio,",
         "about5_7" : "Hochschule der Künste Bern/Biel",
-        "about6_1" : "„Opernskizzen Mythen Töne“",
+        "about6_1" : "2019 „Opernskizzen Mythen Töne“",
         "about6_2" : "und Opern Werkstatt",
         "about6_3" : "„Natur und Oper“",
         "about6_4" : "Schweizer Opernstudio, HKB.Die Rolle Madre Maria und Choralto in ",
@@ -43,9 +43,11 @@
         "about7_1" : "Gleichzeitig absolvierte sie ein Praktikum in Opernhäusern und nimmt an als Solistin in",
         "about7_2" : "„Zäller Wiehnacht“",
         "about7_3" : "von Paul Burkhard in TOBS.",
+        "about7_4" : "2020",
         "about8_1" : "Die",
         "about8_2" : "Rolle Orlofsky in „Fledermaus“",
         "about8_3" : " von Johann Strauss im „Neues Theater Dornach“.",
+        "about8_4" : "2021",
         "about9_1" : "2021  Haupt Rolle",
         "about9_2" : " im Abschlussprojekt ",
         "about9_3" : "„Das Unheimliche“",
@@ -123,7 +125,7 @@
     },
     "photo" : {
         "title1" : "fotos",
-        "descr1" : "Portret  |  fotograf:",
+        "descr1" : "Porträts",
         "descr2" : "Performances"
     },
     "video" : {
@@ -131,12 +133,12 @@
         "descr" : "H. SUTERMEISTER „ DIE SCHWARZE SPINNE“ ARIE CHRISTINE"
     },
     "contact" : {
-        "title" : "kontact",
+        "title" : "kontakt",
         "btn" : "Senden",
         "btn_text" : "Vielen Dank! Polina wird Sie in Kürze kontaktieren",
         "btn_btn" : "Senden Sie ein anderes Formular"
     },
     "calendar" : {
-        "title" : "KALENDER"
+        "title" : "EVENTS"
     }
 }

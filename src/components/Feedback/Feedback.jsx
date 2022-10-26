@@ -89,12 +89,12 @@ export const Feedback = () => {
                                 </div>
                                 <input 
                                     className={classes.feedback__wrapper__form__fillData_subject}
-                                    placeholder='BETREF:*'
+                                    placeholder='BETREFF:*'
                                     value={subject}
                                     onChange={(e) => setSubject(e.target.value)}
                                     name='subject'/>
                                 <input className={classes.feedback__wrapper__form__fillData_number}
-                                    placeholder='RUFUMMER:*'
+                                    placeholder='MOBILNUMMER:*' 
                                     value={phone}
                                     onChange={(e) => setPhone(e.target.value)}
                                     name='phone'/>
