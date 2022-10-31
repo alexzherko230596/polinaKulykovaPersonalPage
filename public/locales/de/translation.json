@@ -94,6 +94,8 @@
         "point1" : "• Solist im Chor",
         "point2" : "• Heimkonzerte ",
         "point3" : "• Gottesdienste",
+        "point4" : "• Opernvorstellung",
+        "point5" : "• Einzelaufführung",
         "underline_text" : "Mit großer Liebe und Freude im Herzen werde ich gerne für Sie singen.",
         "message1_text" : "„Stimmgewaltig und virtuos, die Mitglieder der Spirito Corda Danke, dass sie uns diesen wunderbaren Opernabend nach Brienz gebracht hast.“",
         "message1_date" : "2.6.2022",
@@ -139,6 +141,7 @@
         "btn_btn" : "Senden Sie ein anderes Formular"
     },
     "calendar" : {
-        "title" : "EVENTS"
+        "title" : "EVENTS",
+        "descr" : "Bevorstehende Auftritte"
     }
 }

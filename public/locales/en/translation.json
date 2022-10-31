@@ -94,6 +94,8 @@
         "point1" : "• Soloist in the choir",
         "point2" : "• Home concerts",
         "point3" : "• Church services",
+        "point4" : "• Opera performance",
+        "point5" : "• Single performance",
         "underline_text" : "With great love and joy in my heart I will gladly sing for you.",
         "message1_text" : "'Powerful voices and virtuoso, the members of the Spirito Corda thank you for bringing us this wonderful evening of opera to Brienz.'",
         "message1_date" : "2.6.2022",
@@ -141,6 +143,7 @@
         "btn_btn" : "Send another form"
     },
     "calendar" : {
-        "title" : "EVENTS"
+        "title" : "EVENTS",
+        "descr" : "Upcoming appearances"
     }
 }
