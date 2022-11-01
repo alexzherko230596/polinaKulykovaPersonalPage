@@ -88,9 +88,9 @@ export const Calendar = () => {
                                         <p className={classes.calendar__wrapper__month__element__content_descr}>Musikleiter: Kristofer Kiesel</p>
                                     </div>
                                 </div>
-                                <div className={classes.calendar__wrapper__month__element__content__button2}>
+                                {/* <div className={classes.calendar__wrapper__month__element__content__button2}>
                                     <a className={classes.calendar__wrapper__month__element__content__button_link} href="https://www.luzernertheater.ch/dieschneekoenigin" target="_blank" rel="noreferrer">DETAILS</a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 
