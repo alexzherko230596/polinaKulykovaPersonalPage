@@ -12,87 +12,6 @@ export const Calendar = () => {
                     <p className={classes.calendar__wrapper_descr}>{t('calendar.descr')}</p>
                     <div className={classes.calendar__wrapper_devider}/>
                     <div className={classes.calendar__wrapper__month}>
-                        <div className={classes.calendar__wrapper__month__element}>
-                            <p className={classes.calendar__wrapper__month__element_title}>November 2022</p>
-                            <div className={classes.calendar__wrapper__month__element_devider}/>
-                            <div className={classes.calendar__wrapper__month__element__content}>
-                                <div className={classes.calendar__wrapper__month__element__content__middle}>
-                                    <p className={classes.calendar__wrapper__month__element__content_title}>luzerner theater</p>
-                                    <p className={classes.calendar__wrapper__month__element__content_title}>“Die Schneekönigin”</p>
-                                    <div className={classes.calendar__wrapper__month__element__content__middleText}>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Die Rollen: Prinzessin,</p>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Räubertochter, Lappin</p>
-                                    </div>
-                                    <div className={classes.calendar__wrapper__month__element__content__middleText}>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>PREMIERE 8.11.2022 BÜHNE</p>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>08.11. / 09.11. / 12.11. / 20.11</p>
-                                    </div>
-                                    <div className={classes.calendar__wrapper__month__element__content__middleText}>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>KOMPOSITION: Sam penderbayne</p>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>libretto: christian schönfelder</p>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Regie: Jana Vetten</p>
-                                    </div>
-                                </div>
-                                <div className={classes.calendar__wrapper__month__element__content__button}>
-                                    <a className={classes.calendar__wrapper__month__element__content__button_link} href="https://www.luzernertheater.ch/dieschneekoenigin" target="_blank" rel="noreferrer">DETAILS</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className={classes.calendar__wrapper__month__element}>
-                            <p className={classes.calendar__wrapper__month__element_title}>6 November 2022</p>
-                            <div className={classes.calendar__wrapper__month__element_devider}/>
-                            <div className={classes.calendar__wrapper__month__element__content}>
-                                <div className={classes.calendar__wrapper__month__element__content__middle}>
-                                    <p className={classes.calendar__wrapper__month__element__content_title}>GOTTESDIENST</p>
-                                    <p className={classes.calendar__wrapper__month__element__content_title_hide}>GOTTESDIENST</p>
-                                    <div className={classes.calendar__wrapper__month__element__content__middleText}>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Sonntag, 06.11.</p>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Um 17:15 Uhr</p>
-                                    </div>
-                                    <div className={classes.calendar__wrapper__month__element__content__middleText}>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Kath. Kirche St. Johanes</p>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Freiestrasse 13, 8570 Weinfelden</p>
-                                    </div>
-                                    <div className={classes.calendar__wrapper__month__element__content__middleText}>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Programm:  M.Duruflé – Requiem </p>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Musikleiterin : Manuela Eichenlaub</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className={classes.calendar__wrapper__month__element}>
-                            <p className={classes.calendar__wrapper__month__element_title}>27 NOVEMBER 2022</p>
-                            <div className={classes.calendar__wrapper__month__element_devider}/>
-                            <div className={classes.calendar__wrapper__month__element__content}>
-                                <div className={classes.calendar__wrapper__month__element__content__middle}>
-                                    <p className={classes.calendar__wrapper__month__element__content_title}>GOTTESDIENST</p>
-                                    <p className={classes.calendar__wrapper__month__element__content_title_hide}>GOTTESDIENST</p>
-                                    <div className={classes.calendar__wrapper__month__element__content__middleText2}>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Zum 1 Advent</p>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr_hide}>Um 17:15 Uhr</p>
-                                    </div>
-                                    <div className={classes.calendar__wrapper__month__element__content__middleText2}>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}> Sonntag  27.11.</p>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Um 10:00</p>
-                                    </div>
-                                    <div className={classes.calendar__wrapper__month__element__content__middleText2}>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Evangelische Kirche</p>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Kirchgasse 2, 8570 Weinfelden</p>
-                                    </div>
-                                    <div className={classes.calendar__wrapper__month__element__content__middleText2}>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Programm:</p>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>G.P. Telemann „Nun komm der</p>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Heiden Heiland“</p>
-                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Musikleiter: Kristofer Kiesel</p>
-                                    </div>
-                                </div>
-                                {/* <div className={classes.calendar__wrapper__month__element__content__button2}>
-                                    <a className={classes.calendar__wrapper__month__element__content__button_link} href="https://www.luzernertheater.ch/dieschneekoenigin" target="_blank" rel="noreferrer">DETAILS</a>
-                                </div> */}
-                            </div>
-                        </div>
 
                         <div className={classes.calendar__wrapper__month__element}>
                             <p className={classes.calendar__wrapper__month__element_title}>DEZEMBER 2022</p>
@@ -121,6 +40,44 @@ export const Calendar = () => {
                                 </div>
                                 <div className={classes.calendar__wrapper__month__element__content__button2}>
                                     <a className={classes.calendar__wrapper__month__element__content__button_link} href="https://www.luzernertheater.ch/dieschneekoenigin" target="_blank" rel="noreferrer">DETAILS</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className={classes.calendar__wrapper__month__element}>
+                            <p className={classes.calendar__wrapper__month__element_title}>DEZEMBER 2022</p>
+                            <div className={classes.calendar__wrapper__month__element_devider}/>
+                            <div className={classes.calendar__wrapper__month__element__content}>
+                                <div className={classes.calendar__wrapper__month__element__content__middle}>
+                                    <p className={classes.calendar__wrapper__month__element__content_title}>Eucharistiefeier</p>
+                                    <p className={classes.calendar__wrapper__month__element__content_title}>der Weihnachtsmette</p>
+                                    <p className={classes.calendar__wrapper__month__element__content_title}>mit dem Cäcilienchor</p>
+                                    <div className={classes.calendar__wrapper__month__element__content__middleText}>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Die Rollen: Prinzessin,</p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Räubertochter, Lappin</p>
+                                        <div className={classes.calendar__wrapper__month__element__content__middleText} />
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Sa. 24.12.2022, 23.00 Uhr</p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Kirche St. Josef, Uitikonerstrasse 31</p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>8952 Schlieren</p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Liturge: Oliver Quilab</p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Musik: Simon Nadasi</p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Programm:</p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>die Messe in B-Dur von </p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Matthäus Fischer (1763 - 1840)</p>
+                                        <div className={classes.calendar__wrapper__month__element__content__middleText} />
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Als Solisten wirken:</p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Corinne Sutter, Sopran</p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Polina Kulykova, Alt</p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Andrejs Krutojs, Tenor</p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Gabor Kabok, Bass</p>
+                                        <div className={classes.calendar__wrapper__month__element__content__middleText} />
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Liturge: Oliver Quilab</p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Musik: Simon Nadasi</p>
+                                        <div className={classes.calendar__wrapper__month__element__content__middleText} />
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Anita Zeller, Konzertmeisterin</p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Cäcilienchor Schlieren</p>
+                                        <p className={classes.calendar__wrapper__month__element__content_descr}>Gunhard Mattes, Leitung</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
